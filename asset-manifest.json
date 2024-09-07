@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.45f8d3b1.css",
+    "main.js": "/website/static/js/main.8196e829.js",
+    "static/js/453.35607f0f.chunk.js": "/website/static/js/453.35607f0f.chunk.js",
+    "static/media/apple-orchard-illustration-olsenscider.com.jpeg": "/website/static/media/apple-orchard-illustration-olsenscider.com.fc55b8304944c55c3613.jpeg",
+    "static/media/apple-orchard-watercolor-olsenscider.com.jpeg": "/website/static/media/apple-orchard-watercolor-olsenscider.com.50a5c21c134336b4c510.jpeg",
+    "static/media/apple-leaf-tile-olsenscider.com.jpeg": "/website/static/media/apple-leaf-tile-olsenscider.com.8e4a5def02d3bfa8890b.jpeg",
+    "static/media/kyler-jess-press-olsenscider.com.jpg": "/website/static/media/kyler-jess-press-olsenscider.com.42f9dbb08c7383a921bb.jpg",
+    "static/media/apple-press-olsenscider.com.jpg": "/website/static/media/apple-press-olsenscider.com.8cb7066a52f9da8601cb.jpg",
+    "static/media/kyler-jess-press-sq-olsenscider.com.jpg": "/website/static/media/kyler-jess-press-sq-olsenscider.com.fb3b9e553d25f4a350ed.jpg",
+    "static/media/apple-bucket-olsenscider.com.png": "/website/static/media/apple-bucket-olsenscider.com.755964b078ca9b1aebee.png",
+    "static/media/orchard.png": "/website/static/media/orchard.7b88f01428270d8a4833.png",
+    "static/media/cider-sm-white.png": "/website/static/media/cider-sm-white.1d02138e14b2ff1c8923.png",
+    "index.html": "/website/index.html",
+    "main.45f8d3b1.css.map": "/website/static/css/main.45f8d3b1.css.map",
+    "main.8196e829.js.map": "/website/static/js/main.8196e829.js.map",
+    "453.35607f0f.chunk.js.map": "/website/static/js/453.35607f0f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45f8d3b1.css",
+    "static/js/main.8196e829.js"
+  ]
+}
