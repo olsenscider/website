@@ -26,22 +26,23 @@ const FAQCard: React.FC<FAQCardProps> = ({ title, content }) => {
   return (
     <>
       <Card sx={{ width: "80%", m: "3rem" }}>
-        <CardContent>
-          <Typography variant="h5" sx={{ fontFamily: "Lato" }}>{title}</Typography>
+        <CardContent onClick={handleExpandClick} sx={{ display: "flex", justifyContent: "space-between", cursor: "pointer" }}>
+          <Typography variant="h4" sx={{ fontFamily: "Lato" }}>{title}</Typography>
+          <CardActions disableSpacing>
+            <Button >
+              {expanded ? "Collapse" : "Expand"}
+            </Button>
+            <IconButton
+              onClick={handleExpandClick}
+              aria-expanded={expanded}
+              aria-label="show more"
+              sx={{ marginLeft: "auto" }}
+            >
+              {expanded ? <ExpandLessIcon /> : <ExpandMoreIcon />}
+            </IconButton>
+          </CardActions>
         </CardContent>
-        <CardActions disableSpacing>
-          <Button onClick={handleExpandClick}>
-            {expanded ? "Collapse" : "Expand"}
-          </Button>
-          <IconButton
-            onClick={handleExpandClick}
-            aria-expanded={expanded}
-            aria-label="show more"
-            sx={{ marginLeft: "auto" }}
-          >
-            {expanded ? <ExpandLessIcon /> : <ExpandMoreIcon />}
-          </IconButton>
-        </CardActions>
+
         <Collapse in={expanded} timeout="auto" unmountOnExit>
           <CardContent>
             <Typography paragraph>{content}</Typography>

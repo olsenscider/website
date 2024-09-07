@@ -39,6 +39,11 @@ const theme = createTheme({
       fontWeight: 600,
       fontFamily: "Architects Daughter",
     },
+    h4: {
+      fontSize: "1.25rem",
+      fontWeight: 500,
+      fontFamily: "Lato",
+    },
     body1: {
       fontSize: "1rem",
       fontFamily: "Lato",

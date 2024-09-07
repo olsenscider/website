@@ -24,19 +24,25 @@ export default function HowItWorks() {
       }}>
         {/* Main */}
         <Grid container spacing={2} sx={{ pt: "3rem", alignItems: "center", justifyContent: "center" }}>
-          <Grid item xs={2} md={5}>
-            <Divider sx={{ borderColor: "white", borderBottomWidth: 2, ml: "40px", borderStyle: "dashed" }} />
-          </Grid>
-          <Grid item xs={8} md={2}>
+          {!isMobile ?
+            <Grid item md={5}>
+              <Divider sx={{ borderColor: "white", borderBottomWidth: 2, ml: "40px", borderStyle: "dashed" }} />
+            </Grid>
+            :
+            <></>
+          }
+          <Grid item xs={12} md={2}>
             <Typography variant="h2" sx={{ color: "primary.main", textAlign: "center" }}>
               How It Works
             </Typography>
           </Grid>
-          <Grid item xs={2} md={5}>
-            <Divider sx={{ borderColor: "white", borderBottomWidth: 2, mr: "40px", borderStyle: "dashed" }} />
-          </Grid>
-
-
+          {!isMobile ?
+            <Grid item md={5}>
+              <Divider sx={{ borderColor: "white", borderBottomWidth: 2, ml: "40px", borderStyle: "dashed" }} />
+            </Grid>
+            :
+            <></>
+          }
         </Grid>
 
         <Grid container spacing={2} sx={{ pb: "2rem", pt: "2rem" }}>
