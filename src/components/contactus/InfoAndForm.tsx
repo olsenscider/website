@@ -1,11 +1,8 @@
 import React from "react"
 import { Box, Grid, Typography, Container } from "@mui/material"
-import { useMediaQuery, useTheme } from '@mui/material';
 
 
 export default function InfoAndForm() {
-  const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down('md'));
 
   return (
     <>
@@ -20,7 +17,7 @@ export default function InfoAndForm() {
 
             <Grid item md={7} xs={12}>
               <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeiRYwH5fqK9HrrQCI8HhFbD0kO0W951xlwbuyETQSdGOC3WQ/viewform?embedded=true"
-                width={isMobile ? "400" : "600"}
+                width="100%"
                 height="1000"
                 title="Form"
                 style={{

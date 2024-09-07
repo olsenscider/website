@@ -5,9 +5,12 @@ import calendar from "../../img/homepageIcons/calendar.png"
 import pickupTruck from "../../img/homepageIcons/pickup-truck.png"
 import appleCrate from "../../img/homepageIcons/harvest.png"
 import gallon from "../../img/homepageIcons/gallon.png"
+import { useMediaQuery, useTheme } from '@mui/material';
 
 
 export default function HowItWorks() {
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down('md'));
   return (
     <>
       {/* Background */}
@@ -42,7 +45,7 @@ export default function HowItWorks() {
               <Box component={"img"}
                 src={calendar}
                 sx={{
-                  width: "50%",
+                  width: isMobile ? "75%" : "50%",
                   height: "auto",
                   pl: "3rem",
                   pr: "3rem"
@@ -57,7 +60,7 @@ export default function HowItWorks() {
               <Box component={"img"}
                 src={pickupTruck}
                 sx={{
-                  width: "50%",
+                  width: isMobile ? "75%" : "50%",
                   height: "auto",
                   pl: "3rem",
                   pr: "3rem"
@@ -72,7 +75,7 @@ export default function HowItWorks() {
               <Box component={"img"}
                 src={appleCrate}
                 sx={{
-                  width: "50%",
+                  width: isMobile ? "75%" : "50%",
                   height: "auto",
                   pl: "3rem",
                   pr: "3rem"
@@ -87,7 +90,7 @@ export default function HowItWorks() {
               <Box component={"img"}
                 src={gallon}
                 sx={{
-                  width: "50%",
+                  width: isMobile ? "75%" : "50%",
                   height: "auto",
                   pl: "3rem",
                   pr: "3rem"

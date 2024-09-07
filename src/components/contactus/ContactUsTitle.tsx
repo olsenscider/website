@@ -18,7 +18,7 @@ export default function ContactUsTitle() {
       }}>
         {/* Text/Buttons */}
         <Box sx={{ pt: "3rem" }}>
-          <Typography variant="h1" sx={{ color: "white", textAlign: "center", p: 2 }}>Olsen's Hometown Cider: Contact Us</Typography>
+          <Typography variant="h1" sx={{ color: "white", textAlign: "center", p: 2 }}>Contact Us</Typography>
         </Box>
       </Box>
     </>

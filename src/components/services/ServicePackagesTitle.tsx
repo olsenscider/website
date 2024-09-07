@@ -18,7 +18,7 @@ export default function ServicesTitle() {
       }}>
         {/* Text/Buttons */}
         <Box sx={{ pt: "3rem" }}>
-          <Typography variant="h1" sx={{ color: "white", textAlign: "center", p: 2 }}>Olsen's Hometown Cider: Services</Typography>
+          <Typography variant="h1" sx={{ color: "white", textAlign: "center", p: 2 }}>Services</Typography>
         </Box>
       </Box>
     </>

@@ -16,7 +16,7 @@ export default function PackagesExplained() {
               <Box component={"img"} src={press} sx={{ width: "40%", height: "auto" }} />
             </Box>
           </Grid>
-          <Grid item md={8} sx={{ mt: "2rem" }}>
+          <Grid item md={8} sx={{ mt: "2rem", ml: 2 }}>
             <Typography><b>Home Service</b> is best suited for the single-home apple cider enthusiast or apple tree owner unsure how to best use an over-abundant apple harvest. Up to 10 bushels.</Typography>
             <br /><Typography sx={{ pt: "1.5rem" }}><b>Orchard Service</b> is best suited for large scale apple pressing projects. You have more than 10 bushels of apples and pressing them all may take more than one day. Please contact us to discuss availability.</Typography>
           </Grid>
