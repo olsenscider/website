@@ -38,7 +38,7 @@ export default function HowItWorks() {
           </Grid>
           {!isMobile ?
             <Grid item md={5}>
-              <Divider sx={{ borderColor: "white", borderBottomWidth: 2, ml: "40px", borderStyle: "dashed" }} />
+              <Divider sx={{ borderColor: "white", borderBottomWidth: 2, mr: "40px", borderStyle: "dashed" }} />
             </Grid>
             :
             <></>
