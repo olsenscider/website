@@ -7,7 +7,7 @@ export default function PackagesExplained() {
     <>
       <Box sx={{ backgroundColor: "white", p: 2 }}>
         {/* Packages Explained */}
-        <Typography variant="body1" color={"black"} sx={{ width: "100%", textAlign: "center", fontStyle: "italic", pt: ".5rem" }}>For Cache Value locations in Idaho or Utah locations outside of Cache Valley, please call us (435) 258-7252 for availability</Typography>
+        <Typography variant="body1" color={"black"} sx={{ width: "100%", textAlign: "center", fontStyle: "italic", pt: ".5rem" }}>For Cache Valley locations in Idaho or Utah locations outside of Cache Valley, please call us (435) 258-7252 for availability</Typography>
         <Typography variant="h2" color={"black"} sx={{ width: "100%", textAlign: "center", pt: "3rem", pb: "2rem" }}>Packages Explained:</Typography>
 
         <Grid container spacing={2} sx={{ pr: 4 }}>

@@ -6,7 +6,7 @@ import whiteApples from "../../img/apple-leaf-tile-olsenscider.com.jpeg"
 
 export default function FAQ() {
   const faqContent = [
-    { id: 1, question: "How much electricity/water will you use?", answer: "Electricity consumption is less than .2 kW per bushel of apples. Water use is about 20 gallons per bushel of apples." },
+    { id: 1, question: "How much electricity/water will you use?", answer: "Electricity consumption is less than .2 kW-hr per bushel of apples. Water use is about 5-10 gallons per bushel of apples." },
     { id: 2, question: "How long does the process usually take?", answer: "One bushel of apples can be pressed in approximately 30 minutes. Allow 30 minutes for both setup and cleanup as well." },
     { id: 3, question: "How should I store my apple cider?", answer: "Fresh cider can be stored for 3-4 days in the refrigerator before the fermentation process starts. Cider can also be frozen (leave a little bit of airspace in the top for expansion) for several months without a change in flavor." },
     { id: 4, question: "Can you press other kinds of fruit, too?", answer: "Currently we are only pressing apples." },
