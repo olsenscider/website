@@ -24,7 +24,7 @@ export default function Hero() {
           height: "385px",
           width: '100%',
           position: 'relative',
-          mt: "61px"
+          mt: '61px'
         }}>
         {/* Text/Buttons */}
         <Typography variant="h1" sx={{ color: "white", textAlign: "center", pt: "4rem" }}>Olsen's Hometown Cider</Typography>
