@@ -16,7 +16,7 @@ export default function InfoAndForm() {
             </Grid>
 
             <Grid item md={7} xs={12}>
-              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeiRYwH5fqK9HrrQCI8HhFbD0kO0W951xlwbuyETQSdGOC3WQ/viewform?embedded=true"
+              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfZ3V_tmJUo6BqPn_GUwSwnh1cfrZiDDSMWpr9j82t9qYs9ew/viewform?embedded=true"
                 width="100%"
                 height="1000"
                 title="Form"
