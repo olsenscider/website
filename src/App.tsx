@@ -13,6 +13,7 @@ import ServicesPage from './pages/ServicesPage';
 import CiderTipsPage from './pages/CiderTipsPage';
 import FoodSafetyPage from './pages/FoodSafetyPage';
 import ContactUsPage from './pages/ContactUsPage';
+import IconPage from './pages/IconSources';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path='/CiderTips' element={<CiderTipsPage />} />
             <Route path='/FoodSafety' element={<FoodSafetyPage />} />
             <Route path='/ContactUs' element={<ContactUsPage />} />
+            <Route path='/IconSources' element={<IconPage />} />
           </Routes>
           <Footer />
         </ThemeProvider>
