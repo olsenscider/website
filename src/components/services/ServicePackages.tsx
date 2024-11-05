@@ -10,8 +10,8 @@ export default function ServicePackages() {
         {/* Header Text */}
         <Typography variant="h2" color={"black"} sx={{ width: "100%", textAlign: "center", pt: "3rem" }}>Service Packages</Typography>
         <Typography variant="body1" color={"black"} sx={{ width: "100%", textAlign: "center", fontFamily: "Lato", pt: "1rem" }}>For locations within Cache Valley</Typography>
-        <Typography variant="body1" color={"black"} sx={{ width: "100%", textAlign: "center", fontStyle: "italic", pt: "2rem" }}>Apple pressing costs include a service fee and a cost per gallon of juice pressed. If you do not have your own containers for juice storage, they can be purchased at an additional cost.</Typography>
-        <Typography variant="body1" color={"black"} sx={{ width: "100%", textAlign: "center", fontStyle: "italic", pt: ".5rem" }}>See below for details:</Typography>
+        <Typography variant="body1" color={"black"} sx={{ width: "100%", textAlign: "center", fontStyle: "italic", pt: "2rem", pl: "1.5rem", pr: "1.5rem" }}>Apple pressing costs include a service fee and a cost per gallon of juice pressed. The service fee below is valid for travel within 30 min from Logan and may be larger for additional travel. We typically see 2.5 gallons of cider from each processed bushel. One bushel is about 8 gallons or 45 pounds of unprocessed apples.  If you do not have your own containers for juice storage, they can be purchased at an additional cost of $1.75 per gallon. See below for details:</Typography>
+        <Typography variant="body1" color={"black"} sx={{ width: "100%", textAlign: "center", fontStyle: "italic", pt: "1.5rem" }}>See below for details:</Typography>
 
         {/* Cards */}
         <Grid container spacing={2} sx={{ pt: "2rem" }}>
@@ -24,8 +24,8 @@ export default function ServicePackages() {
                 </Typography>
                 <Typography variant="body1" sx={{ fontStyle: "italic", pt: ".5rem" }}>Best for single-homes or apple-tree owners</Typography>
                 <Typography variant="body1" sx={{ pt: ".5rem" }}><b>Processing Limit:</b> 10 bushels</Typography>
-                <Typography variant="body1" sx={{ pt: ".5rem" }}><b>Service Fee:</b> $40</Typography>
-                <Typography variant="body1" sx={{ pt: ".5rem" }}><b>Pressing Rate:</b> <span style={{ color: "green" }}>$4.50/gal</span></Typography>
+                <Typography variant="body1" sx={{ pt: ".5rem" }}><b>Service Fee:</b> $45</Typography>
+                <Typography variant="body1" sx={{ pt: ".5rem" }}><b>Pressing Rate:</b> <span style={{ color: "green" }}>$4.75/gal</span></Typography>
                 <Typography variant="body1" sx={{ pt: ".5rem" }}>Provide your own bottles or buy some for $1.75 per gallon jug.</Typography>
                 <Button
                   href='https://calendly.com/olsenscider/apple-pressing-service'
@@ -51,8 +51,8 @@ export default function ServicePackages() {
                 <Typography variant="h3" sx={{ textAlign: "center", width: "100%", color: "green", pt: ".5rem" }}>Orchard Service</Typography>
                 <Typography sx={{ pt: ".5rem", fontStyle: "italic" }}>Large scale projects, 10+ bushels</Typography>
                 <Typography sx={{ pt: ".5rem" }}><b>Processing Limit:</b> NONE</Typography>
-                <Typography sx={{ pt: ".5rem" }}><b>Service Fee:</b> $60</Typography>
-                <Typography sx={{ pt: ".5rem" }}><b>Pressing Rate:</b> <span style={{ color: "green" }}>$4.00/gal</span></Typography>
+                <Typography sx={{ pt: ".5rem" }}><b>Service Fee:</b> $65</Typography>
+                <Typography sx={{ pt: ".5rem" }}><b>Pressing Rate:</b> <span style={{ color: "green" }}>$4.25/gal</span></Typography>
                 <Typography sx={{ pt: ".5rem" }}>Provide your own bottles or buy some for $1.75 per gallon jug.</Typography>
                 <Button
                   href='https://calendly.com/olsenscider/apple-pressing-service'

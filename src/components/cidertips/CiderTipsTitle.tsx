@@ -18,7 +18,7 @@ export default function CiderTipsTitle() {
       }}>
         {/* Text/Buttons */}
         <Box sx={{ pt: "3rem" }}>
-          <Typography variant="h1" sx={{ color: "white", textAlign: "center", p: 2 }}>Cider Tips</Typography>
+          <Typography variant="h1" sx={{ color: "white", textAlign: "center", p: 2 }}>FAQ's & Cider Tips</Typography>
         </Box>
       </Box>
     </>
