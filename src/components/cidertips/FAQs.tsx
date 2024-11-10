@@ -11,7 +11,7 @@ export default function FAQ() {
     { id: 3, question: "How should I store my apple cider?", answer: "Fresh cider can be stored for 3-4 days in the refrigerator before the fermentation process starts. Cider can also be frozen (leave a little bit of airspace in the top for expansion) for several months without a change in flavor." },
     { id: 4, question: "Can you press other kinds of fruit, too?", answer: "Currently we are only pressing apples." },
     { id: 5, question: "I want my apples pressed but don’t want my cider… what are my options?", answer: "There are a few options. You can gift cider to neighbors, friends, and family or Olsen’s Hometown Cider will buy your apples for $10/bushel." },
-    { id: 6, question: "Do you handle cleanup and apple solids disposal?", answer: "Yes, we sanitize our equipment after each use." },
+    { id: 6, question: "Do you handle cleanup and apple solids disposal?", answer: "Yes, we sanitize our equipment after each use. Apple remnants will be disposed of by Olsen's Hometown Cider unless requested for composing by customer." },
   ]
 
   return (

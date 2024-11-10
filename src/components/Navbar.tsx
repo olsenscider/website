@@ -37,9 +37,30 @@ export default function NavBar(props: any) {
   const { url, setUrl } = useGlobalState();
 
   const handleNavClick = (path: string) => {
+    setPageTitle(path);
     setUrl(path)
     navigate(path);
   };
+
+  const setPageTitle = (path: string) => {
+    switch (path) {
+      case '/':
+        document.title = "Olsen's Hometown Cider";
+        break;
+      case '/AboutUs':
+        document.title = 'About Us';
+        break;
+      case '/Services':
+        document.title = 'Services & Rates';
+        break;
+      case '/CiderTips':
+        document.title = "FAQs & Cider Tips";
+        break;
+      case '/ContactUs':
+        document.title = 'Contact Us';
+        break;
+    };
+  }
 
   const toggleDrawer = (open: boolean) => () => {
     setDrawerOpen(open);
