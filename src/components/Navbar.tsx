@@ -54,7 +54,7 @@ export default function NavBar(props: any) {
         document.title = 'Services & Rates';
         break;
       case '/CiderTips':
-        document.title = "FAQs & Cider Tips";
+        document.title = "FAQ's & Cider Tips";
         break;
       case '/ContactUs':
         document.title = 'Contact Us';
@@ -75,10 +75,10 @@ export default function NavBar(props: any) {
         About Us
       </Button>
       <Button sx={{ fontWeight: 500, fontFamily: 'Lato', color: url === '/Services' ? "#881F1D" : "primary" }} onClick={() => handleNavClick('/Services')}>
-        Services
+        Services & Rates
       </Button>
       <Button sx={{ fontWeight: 500, fontFamily: 'Lato', color: url === '/CiderTips' ? "#881F1D" : "primary" }} onClick={() => handleNavClick('/CiderTips')}>
-        Cider Tips
+        FAQ's & Cider Tips
       </Button>
       <Button sx={{ fontWeight: 500, fontFamily: 'Lato', color: url === '/ContactUs' ? "#881F1D" : "primary" }} onClick={() => handleNavClick('/ContactUs')}>
         Contact Us
